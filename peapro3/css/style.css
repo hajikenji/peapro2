@@ -1,0 +1,74 @@
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	height: 100%;
+}
+
+.main-container {
+	height: 100%;
+}
+
+header,
+footer {
+	background-color: rgb(153, 217, 234);
+	color: white;
+	height: 40px;
+	width: 100%;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	line-height: 20px;
+	bottom: 0px;
+}
+
+.img {
+	width: 150px;
+	height: 40px;
+}
+
+.contents {
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 30px;
+	font-size: 2rem;
+}
+
+.title {
+	text-align: center;
+	font-size: 3rem;
+}
+
+table {
+	margin-top: 40px;
+	margin: auto;
+}
+
+th {
+	font-weight: 100;
+	text-align: right;
+	padding-right: 10px;
+	width: 300px;
+}
+
+.textbox {
+	width: 350px;
+}
+
+textarea {
+	resize: none;
+	height: 350px;
+}
+
+.submit {
+	text-align: center;
+}
